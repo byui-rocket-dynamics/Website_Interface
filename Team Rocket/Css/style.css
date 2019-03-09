@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header h1 {
+    display: block;
+    background-color: #002255;
+    padding: 25px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+table{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    background-color: #025;
+}
+.tableHeader {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+}
+.currentStats{
+    text-align: center;
+    background-color: #fff;
+    color: red;
+    padding: 20px;
+    font-size: 30px;
+}       

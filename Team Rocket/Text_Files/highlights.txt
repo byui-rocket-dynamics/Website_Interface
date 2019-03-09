@@ -1,0 +1,8 @@
+Ground Altitude:   4668.32
+Maximum Altitude:  4672.08
+Altitude AGL:      3.76611
+At 1493462428 Seconds
+Drogue Fired at:   0 AGL
+At 1493462430 Seconds
+Main Fired at:     1.56934 AGL
+At 1493462433 Seconds

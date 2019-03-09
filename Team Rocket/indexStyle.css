@@ -1,0 +1,54 @@
+/* This is the index stylesheet */
+
+@font-face{
+    font-family: 'nasa';
+    src: url('nasa.ttf');
+}
+
+@keyframes slide {
+    from {top: -500px;}
+    to {top: 0px;}
+}
+
+body {
+    background: url(Background_Photos/blackhole.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Header h1{
+    color: #fff;
+    padding-right: 20px;
+    font-family: 'nasa';
+    text-transform: uppercase;
+    font-size: 48px;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+.menu {
+    margin-left: 50px;
+    width: 300px;
+    font-family: 'nasa';
+    text-transform: uppercase;
+    font-size: 20px;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+.menu a{
+    background-color: rgba(200, 200, 200, 0.4);
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: rgb(61, 2, 2);
+}

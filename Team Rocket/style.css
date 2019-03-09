@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'nasa';
+    src: url('nasa.ttf');
+}
+
+@keyframes downslide {
+    from {top: -200px;}
+    to {top: 0px;}
+}
+
+@keyframes sideslide {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body {
+    background: url(Background_Photos/space.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'nasa';
+    text-transform: uppercase;
+    font-size: 48px;
+    animation-name: downslide;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+/* Menu Elements */
+
+.menu {
+    height: 100%;
+    top: 0;
+    padding-top: 30px;
+    width: 300px;
+    left: -300px;
+    position: fixed;
+    transition: 1.5s;
+    font-family: 'nasa';
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgba(150, 150, 150, 0.1);
+}
+
+.menu a{
+    background-color: rgba(150, 150, 150, 0);
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu a:hover{
+    background-color: rgb(61, 2, 2);
+}
+
+.menuIcon {
+    top: 0;
+    position: absolute;
+    padding-left: 10px;
+    left: 300px;
+    color: white;
+    font-size: 48px;
+    transition: 1.5s;
+    animation-name: sideslide;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    position: relative;
+}

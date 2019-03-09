@@ -1,0 +1,12 @@
+ - Accelerometeor
+ - Gyroscope
+ - Magnetometer
+
+NEED TO DO:
+ - Read Highlights File
+ - Must be downloadable
+
+
+ - router admin/admin
+
+ - strand burner
