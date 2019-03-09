@@ -17,6 +17,7 @@ body {
     background: url(Background_Photos/space.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -74,4 +75,17 @@ h1 {
     animation-duration: 2s;
     animation-timing-function: ease-out;
     position: relative;
+}
+
+/* Display */
+
+.display {
+    background-color: rgba(68, 68, 68, .5);
+    color: white;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: 'nasa';
 }
