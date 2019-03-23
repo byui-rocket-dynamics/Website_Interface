@@ -14,10 +14,11 @@
 }
 
 body {
-    background: url(Background_Photos/space.jpg);
+    background: url(Background_Photos/space.jpg) black;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;
 }
 
 h1 {
@@ -88,4 +89,12 @@ h1 {
     padding: 5px;
     text-align: center;
     font-family: 'nasa';
+}
+
+.display form {
+    max-width: 500px;
+    margin: auto;
+    text-align: right;
+    background: rgba(50, 50, 50, 0.3);
+    padding: 50px 30px;
 }
